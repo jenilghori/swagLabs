@@ -19,11 +19,11 @@
 2. Install dependencies:
     ```bash
     cd e2eTesting
-    npm install
+    npm init wdio@latest .
     ```
 3. Run the tests:
     ```bash
-    npm test
+    npx wdio run wdio.conf.js
     ```
 
 ## Contributing

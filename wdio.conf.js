@@ -21,8 +21,8 @@ export const config = {
     // of the config file unless it's absolute.
     //
     specs: [
-    //     './test/specs/**/*.js'
-        './test/specs/Swag_Inveteory_Page.js'
+        './test/specs/**/*.js'
+        // './test/specs/Swag_Inveteory_Page.js'
     ],
     // Patterns to exclude.
     exclude: [
