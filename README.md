@@ -1,3 +1,5 @@
+# Swag Labs
+- title Swag Labs
 ## Objectives
 
 - Validate the application's functionality from start to finish.
