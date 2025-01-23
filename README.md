@@ -1,5 +1,6 @@
 # Swag Labs
 - title Swag Labs
+- automation testing on WDIO
 ## Objectives
 
 - Validate the application's functionality from start to finish.
