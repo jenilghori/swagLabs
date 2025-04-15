@@ -10,7 +10,7 @@ jobs:
         - name: 🐢 Setup Node
           uses: actions/setup-node@v4
           with:
-            node-version-file: '10.8.2'
+            node-version-file: 'v20.17.0'
 
         - name: 🏗️ Install Dependencies
           run: npm install
