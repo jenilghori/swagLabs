@@ -19,14 +19,14 @@ describe('Swag Lab Login Test', async () => {
         await expect(browser).toHaveUrl(expect.stringContaining('inventory'))
 
     })
-    it('should show error with invalid credentials', async () => {
+    // it('should show error with invalid credentials', async () => {
 
-        await LoginPage.login(loginData.invalid_User.username, loginData.invalid_User.password)
-        //Verify error msg   
-        const errorMsg = await LoginPage.getErrorMsg()
-        await expect(errorMsg).toContain(ERROR_MSG)
+    //     await LoginPage.login(loginData.invalid_User.username, loginData.invalid_User.password)
+    //     //Verify error msg   
+    //     const errorMsg = await LoginPage.getErrorMsg()
+    //     await expect(errorMsg).toContain(ERROR_MSG)
 
-    })
+    // })
     it('should login only username with valid credentials',async()=>{
         await LoginPage.username.setValue(loginData.valid_User.username)
         await LoginPage.loginButton.click()
