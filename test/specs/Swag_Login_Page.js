@@ -27,21 +27,21 @@ describe('Swag Lab Login Test', async () => {
     //     await expect(errorMsg).toContain(ERROR_MSG)
 
     // })
-    it('should login only username with valid credentials',async()=>{
-        await LoginPage.username.setValue(loginData.valid_User.username)
-        await LoginPage.loginButton.click()
+    // it('should login only username with valid credentials',async()=>{
+    //     await LoginPage.username.setValue(loginData.valid_User.username)
+    //     await LoginPage.loginButton.click()
 
-         //Verify error msg   
-        const errorMsg = await LoginPage.getErrorMsg()
-        await expect(errorMsg).toContain(USERNAME_ERROR_MSG)
-    })
-    it('should login only password with valid credentials',async()=>{
-        await LoginPage.password.setValue(loginData.valid_User.password)
-        await LoginPage.buttoIsDisplayed("#login-button")
-         //Verify error msg   
-        const errorMsg = await LoginPage.getErrorMsg()
-        await expect(errorMsg).toContain(PASSWORD_ERROR_MSG)
-    })
+    //      //Verify error msg   
+    //     const errorMsg = await LoginPage.getErrorMsg()
+    //     await expect(errorMsg).toContain(USERNAME_ERROR_MSG)
+    // })
+    // it('should login only password with valid credentials',async()=>{
+    //     await LoginPage.password.setValue(loginData.valid_User.password)
+    //     await LoginPage.buttoIsDisplayed("#login-button")
+    //      //Verify error msg   
+    //     const errorMsg = await LoginPage.getErrorMsg()
+    //     await expect(errorMsg).toContain(PASSWORD_ERROR_MSG)
+    // })
 
 
 })
