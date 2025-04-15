@@ -51,7 +51,15 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
+         browserName: 'chrome',
+          'goog:chromeOptions': {
+                // OPTION 1: Remove if you don't need user-data-dir
+            args: [
+              '--headless',
+              '--disable-gpu',
+      // '--user-data-dir=/some/path' ← remove or make this unique
+    ]
+        
     }],
 
     //
