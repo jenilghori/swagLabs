@@ -57,8 +57,8 @@ export const config = {
             args: [
               '--headless',
               '--disable-gpu',
-      // '--user-data-dir=/some/path' ← remove or make this unique
-    ]
+                      // '--user-data-dir=/some/path' ← remove or make this unique
+                ]}
         
     }],
 
