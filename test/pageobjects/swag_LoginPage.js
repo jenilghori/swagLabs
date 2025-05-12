@@ -1,5 +1,7 @@
 class LoginPage{
 
+
+    
     get username()
     {
         return $("#user-name")
@@ -32,7 +34,8 @@ class LoginPage{
 
     }
     async buttoIsDisplayed(button){
-       await $(button).waitForDisplayed({timeout:5000,timeoutMsg:`${button} is not visisble`}).click()
+       await $(button).waitForDisplayed({timeout:5000,timeoutMsg:`${button} is not visisble`})
+       await $(button).click()
        
 
 
