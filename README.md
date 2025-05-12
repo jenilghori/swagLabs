@@ -1,5 +1,6 @@
 # Swag Labs
 - title Swag Labs
+- automation testing on WDIO
 ## Objectives
 
 - Validate the application's functionality from start to finish.
@@ -34,4 +35,4 @@ We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.# SauceDemo-WDIO-E2E
