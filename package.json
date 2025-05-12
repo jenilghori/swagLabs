@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "chai": "^5.1.2",
+    "minimist": "^1.2.8",
     "mocha": "^11.0.1"
   }
 }

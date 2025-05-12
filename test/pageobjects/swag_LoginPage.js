@@ -32,8 +32,7 @@ class LoginPage{
 
     }
     async buttoIsDisplayed(button){
-       const ele= $(button)
-       await ele.waitForDisplayed({timeout:5000,timeoutMsg:`${button} is not visisble`}).click()
+       await $(button).waitForDisplayed({timeout:5000,timeoutMsg:`${button} is not visisble`}).click()
        
 
 
